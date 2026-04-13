@@ -514,7 +514,7 @@ fi
         &\\text{do }[false] \\\\
         &\\quad i \\neq n \\rightarrow \\\\
         &\\quad \\quad r := e \\cdot r; \\\\
-        &\\quad \\quad i := i + 1; \\\\
+        &\\quad \\quad i := i + 1 \\\\
         &\\text{od}\\\\
         &\\{i = n \\land r = \\text{exp}(e, n)\\}
       \\end{aligned}
@@ -561,7 +561,7 @@ fi
         &\\text{do }[0 \\leq i \\ \\land i \\leq n \\ \\land r = \\text{exp}(e, i)] \\\\
         &\\quad i \\neq n \\rightarrow \\\\
         &\\quad \\quad r := e \\cdot r; \\\\
-        &\\quad \\quad i := i + 1; \\\\
+        &\\quad \\quad i := i + 1 \\\\
         &\\text{od}\\\\
         &\\{i = n \\land r = \\text{exp}(e, n)\\}
       \\end{aligned}
